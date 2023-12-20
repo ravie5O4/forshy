@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/flower.png" type="image/x-icon" />
+    <title>greetings</title>
+  </head>
+  <body>
+    <div class="greetings">
+      <span>H</span>
+      <span>A</span>
+      <span>P</span>
+      <span>P</span>
+      <span>Y</span>
+    </div>
+    <div class="greetings">
+      <p style="font-size: 2.9rem;" class="month1">B I R T H D A Y</p>
+    </div>
+    <div class="description">
+    <p class="text" id="result" style="color: rgb(255, 255, 255)"></p>
+    </div>
+    <div>
+    <a class="button" id="popup2" style="color: rgb(255, 255, 255)"  href="surprise.html"></a>
+      <div class="popup" id="popup">
+        <p class="surpriseText">
+         <h2></h4> 
+        </p>
+        <div class="button">
+            <button>
+              <a class="ok" href=""></a>
+            </button>
+          </div>
+      </div>
+    </div>
+    
+
+    <script type="text/javascript">
+      function message() {
+        document.getElementById("result").innerHTML =
+          "enjoy your day love, I love you :p";
+      }
+      setTimeout(message, 3100);
+    </script>
+    <script type="text/javascript">
+      function message() {
+        document.getElementById("popup2").innerHTML = "click here";
+      }
+      setTimeout(message, 4170);
+    </script>
+    
+  </body> 
+</html>
